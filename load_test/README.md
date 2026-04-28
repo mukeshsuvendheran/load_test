@@ -1,4 +1,4 @@
-🔴Continuous Load Testing & Monitoring System
+**🔴Continuous Load Testing & Monitoring System**
 
 A Python-based continuous load testing and monitoring system designed to simulate real-time workloads, collect system metrics, and log performance data for analysis.
 
@@ -22,12 +22,12 @@ This project is built to understand and implement:
 It bridges Electronics + Software + IoT + Backend Engineering.
 ---------------------
 System Architecture
-Sensors / Simulated Data->
+sensors / Simulated Data->
 Data Processing (Python)->
 Load Generation Loop->
 MQTT / API Publishing->
 Logging (Excel / JSON / DB)
---------------------------
+--------------------------*
 Tech Stack
 
 - Python  
