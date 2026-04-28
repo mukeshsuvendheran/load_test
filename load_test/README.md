@@ -22,10 +22,11 @@ This project is built to understand and implement:
 It bridges Electronics + Software + IoT + Backend Engineering.
 ---------------------
 System Architecture
-sensors / Simulated Data->
-Data Processing (Python)->
-Load Generation Loop->
-MQTT / API Publishing->
+
+sensors / Simulated Data ->
+Data Processing (Python) ->
+Load Generation Loop ->
+MQTT / API Publishing ->
 Logging (Excel / JSON / DB)
 --------------------------*
 
