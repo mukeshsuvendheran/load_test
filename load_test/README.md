@@ -1,16 +1,16 @@
-Continuous Load Testing & Monitoring System
+🔴Continuous Load Testing & Monitoring System
 
 A Python-based continuous load testing and monitoring system designed to simulate real-time workloads, collect system metrics, and log performance data for analysis.
 
-🚀 Features
-
+Features
 - Continuous load generation (simulated or real inputs)
 - Real-time data collection (RPM, Voltage, Current, Temperature)
 -  Structured logging (JSON / Excel / Database)
 -  Timestamp-based tracking
 -  MQTT-based data publishing (IoT-ready)
 -  Scalable architecture for monitoring systems
-
+  
+----------------------------------
 Project Purpose
 This project is built to understand and implement:
 
@@ -21,8 +21,25 @@ This project is built to understand and implement:
 - Backend logging and processing  
 
 It bridges **Electronics + Software + IoT + Backend Engineering**.
+---------------------
+System Architecture
 
----
+Sensors / Simulated Data
+↓
+Data Processing (Python)
+↓
+Load Generation Loop
+↓
+MQTT / API Publishing
+↓
+Logging (Excel / JSON / DB)
+--------------------------
+🛠️ Tech Stack
 
-## 🏗️ System Architecture
+- Python  
+- MQTT (paho-mqtt)  
+- openpyxl (Excel logging)  
+- JSON  
+- Raspberry Pi (optional)  
+- Sensors (optional: ADS1115, ACS712, Temperature sensors)
 
