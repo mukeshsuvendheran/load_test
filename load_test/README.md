@@ -19,22 +19,16 @@ This project is built to understand and implement:
 - Data streaming using MQTT  
 - Sensor data simulation & integration  
 - Backend logging and processing  
-
-It bridges **Electronics + Software + IoT + Backend Engineering**.
+It bridges Electronics + Software + IoT + Backend Engineering.
 ---------------------
 System Architecture
-
-Sensors / Simulated Data
-↓
-Data Processing (Python)
-↓
-Load Generation Loop
-↓
-MQTT / API Publishing
-↓
+Sensors / Simulated Data->
+Data Processing (Python)->
+Load Generation Loop->
+MQTT / API Publishing->
 Logging (Excel / JSON / DB)
 --------------------------
-🛠️ Tech Stack
+Tech Stack
 
 - Python  
 - MQTT (paho-mqtt)  
