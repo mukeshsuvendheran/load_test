@@ -28,8 +28,8 @@ Load Generation Loop->
 MQTT / API Publishing->
 Logging (Excel / JSON / DB)
 --------------------------*
-Tech Stack
 
+Tech Stack
 - Python  
 - MQTT (paho-mqtt)  
 - openpyxl (Excel logging)  
